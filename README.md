@@ -66,3 +66,4 @@ use the event emmitter to emit events
 - *Carly Dekock*
 - *Jason D*
 - *Jason Q*
+- *Bill*
