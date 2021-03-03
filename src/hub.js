@@ -8,7 +8,7 @@ const event = require('./event.js');
  require('./vendor.js');
 
 
- require('./driver.js');
+require('./driver.js');
 
 
 
@@ -20,5 +20,9 @@ event.on('delivered', sendMessage);
 
 
 function sendMessage(payload){
-  console.log(`Delivery to: ${JSON.stringify(payload)}`);
+  console.log(`Hub Event: ${JSON.stringify(payload)}`);
 }
+
+module.exports = {
+  sendMessage,
+};
