@@ -2,10 +2,15 @@
   "name": "caps",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "event.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "faker": "^5.4.0",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "jest --verbose",
-    "start": "node index.js"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -17,10 +22,5 @@
   "bugs": {
     "url": "https://github.com/Seidomo/caps/issues"
   },
-  "homepage": "https://github.com/Seidomo/caps#readme",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "faker": "^5.4.0",
-    "jest": "^26.6.3"
-  }
+  "homepage": "https://github.com/Seidomo/caps#readme"
 }
