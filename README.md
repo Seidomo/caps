@@ -12,9 +12,9 @@
 * branch name ``` socket.io  ```
 
 
-*  [pullrequest]()
+*  [pullrequest](https://github.com/Seidomo/caps/pull/4)
 
-*  [Github Actions]()
+*  [Github Actions](https://github.com/Seidomo/caps/actions)
 
 
 ## [UML 2](./assets/lab12.png)
@@ -57,3 +57,13 @@ use the event emmitter to emit events
 ## [UML 1](./assets/lab11.png)
 
 ## [UML 2](./assets/lab12.png)
+
+
+
+### attribiution:
+
+- *Nick Magruder*
+- *Carly Dekock*
+- *Jason D*
+- *Jason Q*
+- *Bill*
