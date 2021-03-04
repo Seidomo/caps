@@ -13,12 +13,12 @@
 * branch name ``` queue  ```
 
 
-*  [pullrequest]()
+*  [pullrequest](https://github.com/Seidomo/caps/pull/7)
 
-*  [Github Actions]()
+*  [Github Actions](https://github.com/Seidomo/caps/actions)
 
 
-## [UML 2](./assets/lab12.png)
+## [UML 3](./assets/lab13.png)
 
 
 ### Lab 12
