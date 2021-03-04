@@ -2,7 +2,7 @@
 'use strict';
 const io = require('socket.io-client');
 
-const hostURL = 'http://localhost:3001';
+const hostURL = 'http://localhost:3001/caps';
 const socket = io.connect(hostURL);
 const events = require('../event.js');
 
@@ -19,9 +19,20 @@ socket.on('pickup', payload => {
   setTimeout(() => {
     events.driverDelivered(payload);
     socket.emit('delivered', payload);
-  }, 3000)
+  }, 4000)
 });
 
+socket.on('packageReady', payload => {
+
+  console.log(payload);
+  socket.emit('received', payload);
+});
+socket.on('getMessages', () => {
+  for (let key in orderQueue.sent) {
+
+    socket.emit('packageReady', orderQueue.sent[key]);
+  }
+});
 
 
 

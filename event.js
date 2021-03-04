@@ -6,7 +6,7 @@
 function eventPickup(payload){
   console.log(`EVENT: Order picked up from  ${payload.store}`);
 }
-
+//  function pickupReady
 
 function eventIntransit(payload){
   console.log(`EVENT:  Order in-transit to  ${payload.customer} in ${payload.address}`);
